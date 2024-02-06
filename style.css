@@ -1,0 +1,165 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    color: #c4a484;
+  }
+      
+  
+  a {
+    color: #c4a484;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 10%;
+    height: auto;
+  }
+  
+  /* Header */
+  a {
+    background-color: #fdfdfd;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    
+
+  }
+  
+  nav a {
+    font-weight: bold;
+    align-items: center;
+    padding: 5px 20px;
+    justify-content: space-between;
+  }
+
+  /* Homepage */
+  .img {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .img h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  body {
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-card {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-card img {
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Product Page */
+  .product-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .product-detail img {
+    width: 50%;
+  }
+  
+  .product-detail .info {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .product-detail h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .product-detail p {
+    margin-bottom: 15px;
+  }
+  
+  .product-detail button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Shopping Cart */
+  .cart {
+    padding: 10px;
+  }
+  
+  .cart h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .cart table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart table th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .cart .checkout {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+ 
