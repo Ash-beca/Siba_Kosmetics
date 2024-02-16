@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-/html draft
+/html_draft
 
 # testing
 /coverage
