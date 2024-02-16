@@ -1,0 +1,15 @@
+body {
+    background-image: url("/public/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home {
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.home-text {
+    width: 500px;
+}
