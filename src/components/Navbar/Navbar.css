@@ -16,5 +16,22 @@ img {
     color: #c4a484;
     justify-content: space-between;
     display: flex;
+    width: 400px;
+    text-decoration: none;
+}
 
+a {
+    text-decoration: none;
+    color: #d28e6a;
+}
+
+.login {
+    margin-right: 30px;
+    color: #d28e6a;
+    cursor: pointer;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 10px;
 }

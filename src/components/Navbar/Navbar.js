@@ -1,21 +1,28 @@
 import React from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
+import logo from '../../img/logo.jpg';
 
 const Navbar = () => {
   return (
     <nav>
-      <div>
-        <a href='#' className='logo'><img src='./img/logo.jpg' alt='some' /></a>
+      <div className='logo'>
+        <a href='#' className='logo'><img src={logo} alt='some' /></a>
       </div>
       <ul className='links'>
-        <a href='#'>Home</a>
-        <a href='#'>Products</a>
-        <a href='#'>About</a>
-        <a href='#'>Contact</a>
+        <Link to='/'> Home
+        </Link>
+        <Link to='/products'> Products
+        </Link>
+        <Link to='/about'> About
+        </Link>
+        <Link to='/contact'> Contact
+        </Link>
       </ul>
-      <div className='icon'>
-        <a href='#' className='search'><img src='./img/search.jpg' alt='some' /></a>
-        <a href='#' className='cart'><img src='./img/shopping-cart.png' alt='anything' /></a>
+      <div className='login'>
+        <p>
+          Login
+        </p>
       </div>
     </nav>
   );

@@ -1,15 +1,29 @@
-body {
-    background-image: url("/public/img/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+.home {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
 }
 
-.home {
-    margin-top: 250px;
+.home1 {
+    grid-column: 1 / 5;
+    margin-top: 110px;
     margin-left: 50px;
+}
+
+.makeup {
+    grid-column: 7 / 12; 
 }
 
 .home-text {
     width: 500px;
+    color: #772a01;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.makeup {
+    margin-top: 70px;
+}
+
+img {
+    border-radius: 20px;
 }
